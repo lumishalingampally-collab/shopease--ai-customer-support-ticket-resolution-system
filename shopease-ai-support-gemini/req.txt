@@ -1,0 +1,39 @@
+Assignment: AI-Powered Customer Support & Ticket Resolution System
+Build an AI-powered customer support system where a user can submit a support issue in natural language. The system should understand the issue, identify the category and priority, refer to the available company knowledge base, and generate an appropriate response.
+The system should also identify cases where the AI does not have enough information or where human intervention is required.
+Requirements
+1. Customer Query
+   - Allow users to submit support issues in natural language.
+2. Issue Analysis
+   - Identify the issue category.
+   - Determine priority.
+   - Identify customer intent.
+   - Identify sentiment.
+   - Decide whether human intervention is required.
+3. Knowledge Base
+   - Use the provided documents as the knowledge base.
+   - Retrieve relevant information before generating a response.
+4. AI Response
+   - Generate a response based on the available information.
+   - The system should not make up information when the required information is not available.
+5. Human Escalation
+   - Identify cases that should be escalated to a human.
+   - For example, serious payment disputes or cases where the system does not have sufficient information.
+6. Conversation History
+   - Maintain conversation context so that follow-up questions can be understood based on previous interactions.
+7. Backend & Database
+   - Store tickets and conversation history.
+   - Provide APIs for creating and retrieving tickets.
+8. User Interface
+   - Provide a simple working interface for submitting issues and viewing responses.
+   - The UI does not need to be highly designed; functionality is more important.
+9. Multilingual Support
+   - The system should ideally handle queries in English, Hindi, and Telugu.
+Deliverables
+Please submit:
+- Source code
+- README with setup and execution instructions
+- Architecture/approach explanation
+- Requirements/dependency file
+- Sample test cases
+- Screenshots or a short demo of the application
